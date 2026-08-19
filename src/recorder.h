@@ -1,3 +1,7 @@
+// ============================================================
+// Recorder — PSRAM sample buffer → CSV persistence (LittleFS)
+// 记录器: PSRAM 采样缓冲 → CSV 文件持久化; 会话元数据快照
+// ============================================================
 #pragma once
 #include <Arduino.h>
 #include <LittleFS.h>

@@ -1,3 +1,7 @@
+// ============================================================
+// Recorder implementation — see recorder.h
+// 记录器实现 — 见 recorder.h
+// ============================================================
 #include "recorder.h"
 #include <time.h>
 #include <vector>

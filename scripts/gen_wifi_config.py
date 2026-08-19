@@ -1,3 +1,7 @@
+# ============================================================
+# Build hook: wifi-config.txt (gitignored) → include/wifi_config.h
+# 构建钩子: 从本地 wifi-config.txt 生成 WiFi 默认凭据头文件(不入库)
+# ============================================================
 # 构建前钩子: 从项目根 wifi-config.txt 生成 include/wifi_config.h
 # - wifi-config.txt 不入库(.gitignore), 模板见 wifi-config.example.txt
 # - 文件不存在时生成空凭据 → 固件仅 Host(AP) 模式, 通过 WebUI/串口设置 WiFi

@@ -9,6 +9,7 @@ An ESP32-S3 + MAX31855 thermocouple tool for **recording and evaluating the temp
 ## Features
 
 - **Real-time temperature chart** — canvas-drawn, no external assets, works without internet (AP mode)
+- **Bilingual WebUI** — 中文 / English toggle (header button, persisted in localStorage), charts & analysis included; `tools/analyze.py` supports `--lang zh|en`
 - **Kettle management** — name / empty weight / lid weight / nominal capacity, edit & delete, persisted on LittleFS
 - **Weighing integration** — 有盖/无盖 toggle, enter total weight → water volume computed in real time (`water = total − dry − lid`), synced to the device and written into every CSV row
 - **Target & reference temperatures** — target temp (default 93 °C) and initial reference temp (default 25 °C, used to cancel out thermocouple offset in analysis); both persisted

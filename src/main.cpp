@@ -1,3 +1,9 @@
+// ============================================================
+// ESP32-S3 Pour-Over Kettle Evaluator — main entry
+// 手冲壶评测工具主程序: WiFi/Host(AP)+Captive Portal / HTTP API /
+// 串口 CLI / 按钮 / LED / 手冲壶与称量 / 温度采样与记录
+// Bilingual notes: 中文 + English
+// ============================================================
 #include <Arduino.h>
 #include <WiFi.h>
 #include <WebServer.h>
