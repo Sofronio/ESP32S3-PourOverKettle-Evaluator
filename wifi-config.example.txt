@@ -1,0 +1,13 @@
+# Wi-Fi 配置 / Wi-Fi configuration
+# 复制本文件为 wifi-config.txt 并填写你的凭据
+# Copy this file to wifi-config.txt and fill in your credentials.
+# wifi-config.txt 已被 .gitignore 忽略, 不会上传到 GitHub
+# wifi-config.txt is gitignored and will NOT be uploaded to GitHub.
+# 构建时 scripts/gen_wifi_config.py 自动生成 include/wifi_config.h
+# At build time scripts/gen_wifi_config.py generates include/wifi_config.h from this file.
+# 留空或不建文件 → 固件仅 Host(AP) 模式, 之后可用 WebUI/串口 wifi 命令设置
+# Leave empty or omit this file → firmware runs in Host(AP) mode only;
+# you can still set Wi-Fi later from the WebUI or the serial `wifi` command.
+
+SSID=
+PASS=

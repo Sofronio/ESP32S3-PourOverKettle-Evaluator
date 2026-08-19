@@ -1,0 +1,10 @@
+# PlatformIO
+.pio/
+
+# 本地 WiFi 凭据(勿上传)
+wifi-config.txt
+include/wifi_config.h
+
+# 测试数据
+*.csv
+*.html
