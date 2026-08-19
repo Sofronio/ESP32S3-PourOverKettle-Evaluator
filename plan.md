@@ -116,7 +116,7 @@
 ## 5. 文件结构
 
 ```
-PourOverKettle/
+ESP32S3-PourOverKettle-Evaluator/
 ├── README.md / README.zh-CN.md   # 项目文档(英文为主, 中文对照, 互相链接)
 ├── plan.md            # 本文档
 ├── platformio.ini     # 平台配置 (espressif32@6.12.0)
@@ -196,7 +196,7 @@ pio device monitor -b 115200   # 串口监视
 
 ## 10. GitHub 整理清单
 
-- [x] 项目改名 `PourOverKettle`(网页标题同步为"ESP32-S3 手冲壶评测工具")
+- [x] 项目改名 `ESP32S3-PourOverKettle-Evaluator`(网页标题同步为"ESP32-S3 手冲壶评测工具")
 - [x] `analyze.py` 移入 `tools/`
 - [x] 板卡文件改名 `boards/YD-ESP32-S3.json`(原 Gaggimate-Controller.json,内容即 YD-ESP32-S3 硬件配置)
 - [x] README 中英文双份互链
