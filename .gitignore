@@ -8,3 +8,9 @@ include/wifi_config.h
 # 测试数据
 *.csv
 *.html
+
+# macOS
+.DS_Store
+
+# 构建产物
+src/idf_component.yml
